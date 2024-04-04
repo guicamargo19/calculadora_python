@@ -44,7 +44,7 @@ Siga estas etapas a seguir para configurar o ambiente de desenvolvimento:
 
 2. Navegue até o diretório clonado e abra no VSCode.
     
-    **``cd calculadora_pyside``**
+    **``cd calculadora_python``**
 
 3. Certifique-se de que a versão do Python global é a 3.11.2
 
