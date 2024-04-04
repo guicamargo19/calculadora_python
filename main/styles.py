@@ -6,7 +6,7 @@
 import re
 from pathlib import Path
 
-import qdarktheme
+import qdarktheme  # type: ignore
 
 # CAMINHOS
 
