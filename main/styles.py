@@ -3,10 +3,10 @@
 # Dark Theme
 # https://pyqtdarktheme.readthedocs.io/en/latest/how_to_use.html
 
+import qdarktheme  # type: ignore
 import re
 from pathlib import Path
 
-import qdarktheme  # type: ignore
 
 # CAMINHOS
 
@@ -22,8 +22,8 @@ DARKEST_PRIMARY_COLOR = '#115270'
 
 # SIZING
 
-BIG_FONT_SIZE = 40
-MEDIUM_FONT_SIZE = 24
+BIG_FONT_SIZE = 36
+MEDIUM_FONT_SIZE = 22
 SMALL_FONT_SIZE = 18
 TEXT_MARGIN = 15
 MINIMUM_WIDTH = 500

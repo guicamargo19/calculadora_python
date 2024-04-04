@@ -243,7 +243,7 @@ class buttonsGrid(QGridLayout):
             self._left = convertToNumber(displayText)
 
         if not isValidNumber(displayText) and self._left is None:
-            self._showError('Você não digitou nenhum número')
+            self._showError('Nenhum número digitado.')
             return
 
         if self._left is None:
