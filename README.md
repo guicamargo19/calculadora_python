@@ -2,7 +2,7 @@
 
 <img style='width: 70%' src="https://servidor-estatico-tan.vercel.app/calculadora.png">
 
-Projeto calculadora desenvolvida em **Python**, com interface gráfica em **PySide6**.
+Projeto calculadora desenvolvida em **Python 3.11.2**, com interface gráfica em **PySide6**.
 Utilizado **PyInstaller** para realizar o empacotamento da aplicação.
 
 ### 💻 Projeto desenvolvido em/para MacOS.
@@ -15,11 +15,11 @@ pyinstaller
     --name="Calculadora"
     --noconfirm
     --onefile
-    --add-data="./files/:./files/"
-    --icon="./files/calc_icon.png"
+    --add-data="files/:files/"
+    --icon="files/calc_icon.png"
     --noconsole
     --log-level=WARN
-    main/main.py
+    main.py
 ```
 
 Os comandos acima possuem pequenas diversas quando executadas em Windows. Consultar na documentação do [PyInstaller](https://pyinstaller.org/en/stable/usage.html)
@@ -46,15 +46,23 @@ Siga estas etapas a seguir para configurar o ambiente de desenvolvimento:
     
     **``cd calculadora_pyside``**
 
-3. Crie o ambiente virtual.
+3. Certifique-se de que a versão do Python global é a 3.11.2
+
+    **``pyenv install 3.11.2``**
+
+    **``pyenv global 3.11.2``**
+
+    **``pyenv versions``** * 3.11.2 (set by /Users/username/.pyenv/version)
+
+4. Crie o ambiente virtual.
 
     **``python -m venv venv``**
 
-4. Instale as dependências para o projeto.
+5. Instale as dependências para o projeto. Obs.: Versões dos módulos apenas compatíveis com a versão 3.11.2 do Python.
 
     **``pip install -r requirements.txt``**
 
-5. Execute o módulo python "main.py".
+6. Execute o módulo python "main.py".
 
 ## 🛠️ Ferramentas utilizadas para construção do projeto
 
