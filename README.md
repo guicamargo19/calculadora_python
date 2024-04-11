@@ -1,6 +1,6 @@
 # Calculadora em Python
 
-<img style='width: 70%' src="https://servidor-estatico-tan.vercel.app/calculadora.png">
+<img style='width: 70%' src="https://servidor-estatico-tan.vercel.app/calculadora-python.png">
 
 Projeto calculadora desenvolvida em **Python 3.11.2**, com interface gráfica em **PySide6**.
 Utilizado **PyInstaller** para realizar o empacotamento da aplicação.
